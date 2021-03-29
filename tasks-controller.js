@@ -1,6 +1,5 @@
 var Tasks = require('./tasks-model')
 
-
 exports.create_Task = function(req,res){
     let task = new Tasks({
         id: req.body.id,
@@ -16,7 +15,6 @@ exports.create_Task = function(req,res){
     })
     res.send('Task created.')
 }
-
 
 exports.list_Tasks = function(req,res){
     Tasks.find({},function(err,tasks){
