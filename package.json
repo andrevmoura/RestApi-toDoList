@@ -1,0 +1,24 @@
+{
+  "name": "restapi-todolist",
+  "version": "1.0.0",
+  "description": "Rest-Api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrevmoura/RestApi-toDoList.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrevmoura/RestApi-toDoList/issues"
+  },
+  "homepage": "https://github.com/andrevmoura/RestApi-toDoList#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.2"
+  }
+}
